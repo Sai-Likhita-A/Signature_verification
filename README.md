@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ### Dataset
 The CEDAR signature dataset is used to train the network. The CEDAR dataset is one of the benchmark datasets for signature verification. It consists of 24 genuine and forged signatures each from 55 different signers.
 
-[Dataset link](http://www.cedar.buffalo.edu/NIJ/data/signatures.rar))
+[Dataset link](http://www.cedar.buffalo.edu/NIJ/data/signatures.rar)
 
 ### Train instructions
 
@@ -35,9 +35,9 @@ python train.py
 The resultant trained model weights will be saved to `Models/` by default
 
 ### Test instruction using pretrained model
-'''
+```
 python test_image_match.py --image1 --image2 --checkpoint --threshold
-'''
+```
 ### Arguments
 * `--image1`: real image to compare with
 * `--image2`: test image fr verification
