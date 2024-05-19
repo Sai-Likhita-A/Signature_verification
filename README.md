@@ -30,7 +30,6 @@ Run train.py to get the Convolutional Siamese network trained on the CEDAR datas
 
 ```
 python train.py
-
 ```
 The resultant trained model weights will be saved to `Models/` by default
 
